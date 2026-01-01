@@ -15,10 +15,10 @@ struct AppView: View {
         AppViewBuilder(
             showTabBar: showTabbar,
             tabbarView: {
-                Text("Tabbar")
+                TabbarView()
             },
             onboardingView: {
-                Text("Onboarding")
+                WelcomeView()
             }
         )
     }
