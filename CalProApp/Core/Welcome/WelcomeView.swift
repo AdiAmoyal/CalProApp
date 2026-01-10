@@ -60,7 +60,7 @@ struct WelcomeView: View {
     
     private var buttonsSection: some View {
         VStack(spacing: 16) {
-            PrimaryNavigationButton(title: "Let’s start", systemImage: "arrow.right", destination: OnboardingCompletedView())
+            PrimaryNavigationButton(title: "Let’s start", systemImage: "arrow.right", destination: OnboardingIntroView())
             
             SecondaryButton(title: "Sign in to sync", systemImage: "person.crop.circle") {
                 // TODO: Add logic
