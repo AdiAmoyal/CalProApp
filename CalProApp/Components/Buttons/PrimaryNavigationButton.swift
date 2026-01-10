@@ -31,14 +31,7 @@ struct PrimaryNavigationButton<Destination: View>: View {
                         .font(.system(size: 15, weight: .semibold))
                 }
             }
-            .foregroundStyle(.white)
-            .frame(maxWidth: .infinity)
-            .padding(.vertical, 16)
-            .background(
-                RoundedRectangle(cornerRadius: 16, style: .continuous)
-                    .fill(Color.theme.primary)
-            )
-            .shadow(color: Color.theme.primary.opacity(0.35), radius: 18, x: 0, y: 10)
+            .callToActionButton()
         }
     }
 }

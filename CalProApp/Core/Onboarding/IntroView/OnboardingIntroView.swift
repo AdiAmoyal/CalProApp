@@ -29,6 +29,7 @@ struct OnboardingIntroView: View {
         }
         .padding(16)
         .appScreenBackground()
+        .toolbar(.hidden, for: .navigationBar)
     }
     
     private var header: some View {
