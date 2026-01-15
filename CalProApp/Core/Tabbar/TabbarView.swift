@@ -10,7 +10,7 @@ import SwiftUI
 struct TabbarView: View {
     var body: some View {
         TabView {
-            TodayView()
+            TodayView(state: TodayDashboardMock.sample())
                 .tabItem {
                     Label("Today", systemImage: "house.fill")
                 }
